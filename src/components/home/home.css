@@ -1,0 +1,52 @@
+.home{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+    margin-left: 15%;
+}
+.leftHome{
+    font-size: 30px;
+}
+.leftHome .name{
+    color: rgb(76, 76, 186);
+}
+.rightHome img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover; /* Ensures the image fills the circular shape */
+    border: 2px solid gray;
+    -webkit-box-shadow: 1px 1px 20px 1px rgba(76, 76, 186,0.25);
+    -moz-box-shadow: 1px 1px 20px 1px rgba(76, 76, 186,0.25);
+    box-shadow: 1px 1px 20px 1px rgba(76, 76, 186,0.25);
+}
+.rightHome img:hover{
+    -webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.45);
+    -moz-box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.45);
+    box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.45);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    background: white;
+}
+
+footer p {
+    margin: 0;
+    color: gray;
+    font-size: 12px;
+}
+
+footer span {
+    background: linear-gradient(60deg, rgb(97, 97, 197), purple, rgb(123, 27, 27));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    font-size: 13px;
+}

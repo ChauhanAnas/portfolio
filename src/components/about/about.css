@@ -1,0 +1,95 @@
+.About{
+    margin: 40px 200px 0px 90px;
+}
+.top{
+    margin-bottom: 20px;
+}
+.top h1{
+    margin-bottom: 13px;
+    font-size: 50px;
+}
+.top p{
+    font-size: 20px;
+    color: rgb(99, 97, 97);
+}
+
+.Experience{
+    margin-top: 70px;
+}
+.Experience h1{
+    font-size: 50px;
+}
+.Experience .content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.Experience .content h4{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.Experience .content .align_line{
+    display: flex;
+    gap: 10px;
+    color: rgb(161, 159, 159);
+}
+.Experience .content .rightExp{
+    text-align: right;
+}
+.Experience .content .rightExp span{
+    background: rgb(213, 249, 213);
+    padding: 3px;
+    border-radius: 30px;
+    color: green;
+}
+
+.education{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.education h1{
+    font-size: 50px;
+}
+.education .content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.education .content h4{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.education .content .align_line{
+    display: flex;
+    gap: 10px;
+    color: rgb(161, 159, 159);
+}
+.education .content .rightExp{
+    text-align: right;
+}
+.education .content .rightExp span{
+    background: rgb(213, 249, 213);
+    padding: 3px;
+    border-radius: 30px;
+    color: green;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    background: white;
+}
+
+footer p {
+    margin: 0;
+    color: gray;
+    font-size: 12px;
+}

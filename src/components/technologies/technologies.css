@@ -1,0 +1,69 @@
+.technology {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+.technology h1 {
+  font-size: 50px;
+}
+.technology p {
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.technology .top2 {
+  margin-bottom: 40px;
+}
+.technology .bottom {
+  margin-top: 70px;
+}
+.technology .bottom h1 {
+  margin-bottom: 30px;
+}
+.technology .img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  position: relative; /* Ensure relative positioning for the images container */
+}
+.technology .img img {
+  width: 100px;
+  position: relative; /* Required for positioning the tooltip */
+}
+.technology .img img::after {
+  content: attr(alt); /* Use the `alt` attribute for tooltip text */
+  position: absolute;
+  bottom: -25px; /* Position the tooltip below the image */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.technology .img img:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  background: white;
+}
+
+footer p {
+  margin: 0;
+  color: gray;
+  font-size: 12px;
+}

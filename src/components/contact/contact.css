@@ -1,0 +1,35 @@
+.contact{
+    text-align: center;
+    margin-top: 100px;
+}
+.contact h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.contact .email{
+    font-size: 40px;
+    color: rgb(169, 98, 169);
+    margin-bottom: 20px;
+}
+.contact p{
+    margin-bottom: 20px;
+}
+.contact .number{
+    font-size: 40px;
+    color: rgb(91, 186, 91);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    background: white;
+  }
+  
+  footer p {
+    margin: 0;
+    color: gray;
+    font-size: 12px;
+  }
